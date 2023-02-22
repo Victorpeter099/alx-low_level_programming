@@ -3,7 +3,6 @@
 /**
  * print_thousand - print out the digit in the thousand spot
  * @sum: Value to scan for thousand spot
- *
  * Return: Void
  */
 
@@ -24,7 +23,6 @@ static void print_thousand(int sum)
 /**
  * print_hundred - print out the digit in the hundred spot
  * @sum: Value to scan for hundred spot
- *
  * Return: Void
  */
 
@@ -45,7 +43,6 @@ static void print_hundred(int sum)
 /**
  * print_tenth - print out the digit in the tenth spot
  * @sum: Value to scan for tenth spot
- *
  * Return: Void
  */
 
@@ -73,7 +70,6 @@ static void print_tenth(int sum)
 /**
  * print_base10 - print out the digit in the base10 spot
  * @sum: Value to scan for base10 spot
- *
  * Return: Void
  */
 
@@ -93,7 +89,6 @@ static void print_base10(int sum)
 /**
  * print_times_table - print out the 9 times table
  * @n: Valuse use to generate times tables.
- *
  * Return: void
  */
 
@@ -112,6 +107,7 @@ void print_times_table(int n)
 	for (v = 1 ; v < n + 1 ; v++)
 	{
 	int sum = v * h;
+
 	_putchar(',');
 	print_thousand(sum);
 	print_hundred(sum);
